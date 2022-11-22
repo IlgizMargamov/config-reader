@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReaderLibrary", "FileReaderLibrary\FileReaderLibrary.csproj", "{9EE8677A-5089-4102-8B24-75D86B8A595E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReaderLibrary_Tests", "FileReaderLibrary_Tests\FileReaderLibrary_Tests.csproj", "{6A5C861C-D077-46CA-888F-691A6D07DDD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EE8677A-5089-4102-8B24-75D86B8A595E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE8677A-5089-4102-8B24-75D86B8A595E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE8677A-5089-4102-8B24-75D86B8A595E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE8677A-5089-4102-8B24-75D86B8A595E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5C861C-D077-46CA-888F-691A6D07DDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5C861C-D077-46CA-888F-691A6D07DDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5C861C-D077-46CA-888F-691A6D07DDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5C861C-D077-46CA-888F-691A6D07DDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

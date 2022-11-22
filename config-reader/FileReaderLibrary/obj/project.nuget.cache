@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ykX5+L7B4AJ57ijKQ24ohBjEJLqUKh9GuNlz4QUWabVXhgIrFDUGt9AzMJP5uwWjcFsmo7Jr39eRWyPmC50Czg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gizon\\Desktop\\config-reader\\config-reader\\FileReaderLibrary\\FileReaderLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gizon\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\Gizon\\.nuget\\packages\\ninject\\4.0.0-beta.1\\ninject.4.0.0-beta.1.nupkg.sha512"
+  ],
+  "logs": []
+}
