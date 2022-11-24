@@ -30,5 +30,10 @@ namespace FileReaderLibrary
         {
             return (int) (Name.GetHashCode()*Math.Pow(2, Description.GetHashCode()));
         }
+
+        public override string ToString()
+        {
+            return "{\n\t"+nameof(Name)+" "+Name+"\n\t"+nameof(Description)+" "+Description+"\r\n}";
+        }
     }
 }

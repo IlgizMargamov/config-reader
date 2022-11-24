@@ -17,3 +17,8 @@ foreach (var reader in readers)
         configs.AddRange(reader.ReadFile(filePath));
     }
 }
+
+foreach (var config in configs)
+{
+    Console.WriteLine(config.ToString());
+}
