@@ -12,4 +12,13 @@
       <PackageReference Include="Ninject" Version="4.0.0-beta.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="FilesToRead\1.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="FilesToRead\2.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>

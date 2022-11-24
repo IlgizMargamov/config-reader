@@ -33,7 +33,7 @@ namespace FileReaderLibrary
 
         public override string ToString()
         {
-            return "{\n\t"+nameof(Name)+" "+Name+"\n\t"+nameof(Description)+" "+Description+"\r\n}";
+            return "{\n\t"+nameof(Name)+": "+Name+",\n\t"+nameof(Description)+": "+Description+",\r\n}";
         }
     }
 }

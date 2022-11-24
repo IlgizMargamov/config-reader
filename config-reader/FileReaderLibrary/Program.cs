@@ -7,7 +7,18 @@ using FileReaderLibrary;
 
 var readers = new List<IFileReader> {new CsvFileReader(), new XmlFileReader()};
 
-const string workingDir = "C:/Users/Gizon/Desktop/config-reader/config-reader/FileReaderLibrary/FilesToRead";
+var commandLineArgs = Environment.GetCommandLineArgs();
+string workingDir;
+if (commandLineArgs.Length < 2)
+{
+    workingDir = "FilesToRead";
+    Console.WriteLine($"No folder given. Reading from default: {workingDir}");
+}
+else
+{
+    workingDir = commandLineArgs[1];
+    Console.WriteLine($"Reading from folder: {workingDir}");
+}
 
 var configs = new List<IConfiguration>();
 foreach (var reader in readers)
